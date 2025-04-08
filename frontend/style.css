@@ -6,6 +6,10 @@ h1 {
     text-align: center;
 }
 
+h3 {
+    text-align: center;
+}
+
 h5 {
     margin: 0px;
     padding: 0px;
@@ -17,7 +21,7 @@ h5 {
     height: 450px;
     width: 450px;
     margin: auto;
-    margin-top: 40px;
+    margin-top: 87px;
     align-items: center;
     justify-content: center;
     /* padding - top, right, bottom, left (clockwise) */
@@ -34,11 +38,6 @@ h5 {
     font-size: 15px;
 }
 
-/* #signup, #signup_using_email {
-    height: 30px;
-    width: 300px;
-} */
-
 #email, #password, #forgot_password, #login, h6 {
     margin: 15px;
 }
@@ -47,4 +46,23 @@ h5 {
     border-radius: 8px;
     height: 30px;
     width: 300px;
+}
+
+#google {
+    background-color: red;
+}
+
+#facebook {
+    background-color: darkblue;
+}
+
+#github {
+    background-color: black;
+}
+
+#google, #facebook, #github {
+    margin: 6.5px;
+    padding: 8px;
+    color: rgb(255, 255, 255);
+    border-radius: 50px;
 }
