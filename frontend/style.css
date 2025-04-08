@@ -1,7 +1,50 @@
 body{
-    background-color: aqua;
+    background-color: #BFD6DC;
+}
+
+h1 {
+    text-align: center;
+}
+
+h5 {
+    margin: 0px;
+    padding: 0px;
 }
 
 .login_box {
+    text-align: center;
     background-color: #ffffff;
+    height: 450px;
+    width: 450px;
+    margin: auto;
+    margin-top: 40px;
+    align-items: center;
+    justify-content: center;
+    /* padding - top, right, bottom, left (clockwise) */
+    padding: 15px;
+    border-radius: 20px;
+}
+
+#login {
+    background-color: #3A8FA6;
+    height: 37px;
+    width: 130px;
+    border-radius: 8px;
+    color: white;
+    font-size: 15px;
+}
+
+/* #signup, #signup_using_email {
+    height: 30px;
+    width: 300px;
+} */
+
+#email, #password, #forgot_password, #login, h6 {
+    margin: 15px;
+}
+
+#email, #password{
+    border-radius: 8px;
+    height: 30px;
+    width: 300px;
 }
