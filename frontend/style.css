@@ -66,3 +66,10 @@ h5 {
     color: rgb(255, 255, 255);
     border-radius: 50px;
 }
+
+.navbar {
+    text-align: center;
+    margin: auto;
+    padding: auto;
+    float: left;
+}
