@@ -68,8 +68,19 @@ h5 {
 }
 
 .navbar {
+    top: 0%;
+    left: 0%;
     text-align: center;
-    margin: auto;
-    padding: auto;
     float: left;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    margin: 5px;
+    padding: 2.5%;
 }
+
+.top_nav {
+    text-align: left;
+    justify-content: space-evenly;
+}
+
+
